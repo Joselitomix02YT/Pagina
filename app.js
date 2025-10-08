@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 10000;
 // ====== Middleware ======
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(express.static("public"));
+app.use(express.static("prueba"));
 
 // ====== Conexión a MySQL (solo si está disponible) ======
 let con;
